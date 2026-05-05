@@ -1,0 +1,74 @@
+# ── Entorno virtual ───────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+*.venv
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+# Descomenta si no quieres versionar outputs de los notebooks:
+# *.ipynb
+
+# ── Modelos entrenados (archivos grandes) ─────────────────────────────────────
+models/**/*.joblib
+models/**/*.keras
+models/**/*.h5
+models/estudios_optuna/*.db
+
+# Mantener estructura de carpetas vacías con .gitkeep:
+!models/.gitkeep
+!models/RS_RF/.gitkeep
+!models/GS_RF/.gitkeep
+!models/OPT_RF/.gitkeep
+!models/RS_XGB/.gitkeep
+!models/GS_XGB/.gitkeep
+!models/OPT_XGB/.gitkeep
+!models/RS_LSTM/.gitkeep
+!models/GS_LSTM/.gitkeep
+!models/OPT_LSTM/.gitkeep
+!models/estudios_optuna/.gitkeep
+
+# Resultados JSON y PKL sí se versionan (livianos y reproducibles):
+# models/**/*.json  → NO ignorar
+# models/**/*.pkl   → NO ignorar
+
+# ── Figuras generadas ─────────────────────────────────────────────────────────
+figures_clustering/
+figures_eda_cleaning/
+figures_supervised/
+
+# ── Datos fuente (archivos grandes) ───────────────────────────────────────────
+data/raw/
+!data/.gitkeep
+
+# ── Optuna / bases de datos ───────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── TensorFlow / Keras cache ──────────────────────────────────────────────────
+logs/
+*.tfevents.*
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace

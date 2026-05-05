@@ -1,0 +1,10 @@
+{
+  "units": 64,
+  "dropout": 0.0993578407670862,
+  "dense_units": 32,
+  "learning_rate": 0.0028708753481954683,
+  "batch_size": 4,
+  "epochs": 67,
+  "patience": 18,
+  "lookback": 2
+}

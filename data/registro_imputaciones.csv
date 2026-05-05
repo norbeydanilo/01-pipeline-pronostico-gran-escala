@@ -1,0 +1,6 @@
+﻿departamento,cultivo,periodo,periodo_num,valor_anterior,valor_posterior,valor_imputado,metodo
+Tolima,Arroz,2018B,23,391268.0,396307.39,393787.695,Interpolación estacional
+Casanare,Arroz,2018B,23,93032.0,148958.1,120995.05,Interpolación estacional
+Cundinamarca,Papa,2018B,23,916670.0,816337.1,866503.55,Interpolación estacional
+Boyaca,Papa,2018B,23,394132.0,519850.6,456991.3,Interpolación estacional
+Narino,Papa,2018B,23,315715.0,416792.44,366253.72,Interpolación estacional
