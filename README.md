@@ -259,16 +259,11 @@ Este repositorio está diseñado para ser completamente replicable y extensible:
 ## Autoría
 
 **Norbey Danilo Muñoz Cañón**  
-
-Facultad de Ingeniería
-
-Maestría en Ciencias de la Información y las Comunicaciones
-
-Grupo de Investigación INTECSE - Interoperabilidad Tecnológica y Semántica.
-
-Universidad Distrital Francisco José de Caldas  
-
-Bogotá, Colombia — 2025/2026
+Facultad de Ingeniería.  
+Maestría en Ciencias de la Información y las Comunicaciones.  
+Grupo de Investigación INTECSE - Interoperabilidad Tecnológica y Semántica.  
+Universidad Distrital Francisco José de Caldas.  
+Bogotá, Colombia — 2025/2026.  
 
 ---
 
