@@ -30,7 +30,7 @@ Validación formal mediante prueba de Wilcoxon con coeficiente de rango biserial
 |---|---|---|
 | Datasets procesados | Todos los datasets intermedios y finales del pipeline | `data/` |
 | Resultados de validación | Métricas, predicciones y mejores hiperparámetros (JSON) | `models/` |
-| Figuras EDA/clustering | PDF vectoriales generados por los notebooks de Fase 1 | `figures_eda_cleaning/` / `figures_clustering/` *(generadas localmente)* |
+| Figuras EDA/clustering | PDF vectoriales generados por los notebooks de Fase 1 y 2 | `figures_eda_cleaning/` / `figures_clustering/` *(generadas localmente)* |
 | Figuras supervisadas | PDF vectoriales generados por el notebook de Fase 2-3 | `figures_supervised/` *(generadas localmente)* |
 | Anexo de tesis | Archivos anexos publicados | `outputs/` |
 
@@ -259,10 +259,15 @@ Este repositorio está diseñado para ser completamente replicable y extensible:
 ## Autoría
 
 **Norbey Danilo Muñoz Cañón**  
+
 Facultad de Ingeniería
+
 Maestría en Ciencias de la Información y las Comunicaciones
+
 Grupo de Investigación INTECSE - Interoperabilidad Tecnológica y Semántica.
+
 Universidad Distrital Francisco José de Caldas  
+
 Bogotá, Colombia — 2025/2026
 
 ---
